@@ -7,6 +7,9 @@ as well as produce the review_scores_rating prediction model
 # Libraries used:
 pandas, numpy, matplotlib, sklearn
 
+# Method used:
+Missing values dropped for Boston_price and Seattle_price. Missing values is aroung 10% of the total prices and it's reasonable to drop them instead of replace them with 0 or average prices to keep the accuracy of popular home price range calculation. 
+
 # Files in the repository:
 Boston Airbnb folder: contains Boston Airbnb data downloaded from Kaggle,
 Seattle Airbnb folder: contains Boston Airbnb data downloaded from Kaggle,
